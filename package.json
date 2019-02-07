@@ -1,0 +1,26 @@
+{
+  "name": "@trapts/route-decorator",
+  "version": "1.0.0",
+  "description": "Trap route decorator.",
+  "scripts": {
+    "format": "prettier --write \"**/*.ts\""
+  },
+  "keywords": [
+    "ts",
+    "trap",
+    "koa"
+  ],
+  "repository": "https://github.com/TrapTS/route-decorator",
+  "author": "AlfieriChou <alfierichou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@trapts/router": "^1.0.0",
+    "@types/koa": "^2.0.48",
+    "@types/node": "^10.12.21",
+    "dir_filenames": "^1.0.6",
+    "koa": "^2.7.0",
+    "prettier": "^1.16.4",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  }
+}
