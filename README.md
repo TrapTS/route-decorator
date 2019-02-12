@@ -6,7 +6,8 @@ Trap route decorator.
 * controller
 
   ```javascript
-  import { prefix, route, Method, Context } from '@trapts/route-decorator'
+  import { prefix, route, Method } from '@trapts/route-decorator'
+  import { Context } from 'koa'
   
   @prefix('/hello')
   export class Hello {

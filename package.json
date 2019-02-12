@@ -1,6 +1,6 @@
 {
   "name": "@trapts/route-decorator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Trap route decorator.",
   "scripts": {
     "format": "prettier --write \"**/*.ts\""

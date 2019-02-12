@@ -100,5 +100,3 @@ export const loadControllers = (filePath: string) => {
   })
   return router
 }
-
-export { Context } from 'koa'
