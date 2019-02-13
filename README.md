@@ -1,6 +1,12 @@
 # route-decorator
 Trap route decorator.
 
+# install
+	
+```bash
+yarn add @trapts/route-decorator
+```
+
 # example
 
 * controller
