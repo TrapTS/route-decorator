@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "Trap route decorator.",
   "scripts": {
+    "start:example": "ts-node ./example/app.ts",
     "format": "prettier --write \"**/*.ts\""
   },
   "keywords": [
@@ -20,7 +21,9 @@
     "dir_filenames": "^1.0.6",
     "koa": "^2.7.0",
     "prettier": "^1.16.4",
+    "reflect-metadata": "^0.1.13",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-plugin-prettier": "^2.0.1"
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3"
   }
 }
