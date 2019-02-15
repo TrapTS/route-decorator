@@ -2,6 +2,22 @@
 # yarn lockfile v1
 
 
+"@trapts/route-decorator@^1.0.5", "@trapts/route-decorator@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@trapts/route-decorator/-/route-decorator-1.0.6.tgz#3f62851b73412aefc3161fff4e199ab6a7da9dca"
+  dependencies:
+    "@trapts/route-decorator" "^1.0.5"
+    "@trapts/router" "^1.0.0"
+    "@types/koa" "^2.0.48"
+    "@types/node" "^10.12.21"
+    dir_filenames "^1.0.6"
+    koa "^2.7.0"
+    prettier "^1.16.4"
+    reflect-metadata "^0.1.13"
+    tslint-config-prettier "^1.18.0"
+    tslint-plugin-prettier "^2.0.1"
+    typescript "^3.3.3"
+
 "@trapts/router@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@trapts/router/-/router-1.0.0.tgz#6f2561c125f4b1304d4251573541668d40ca509c"

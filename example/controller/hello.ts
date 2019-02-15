@@ -1,5 +1,5 @@
 import { Context } from 'koa'
-import { prefix, route, Method } from '../../src'
+import { prefix, route, Method } from '@trapts/route-decorator'
 
 @prefix('/hello')
 export class Hello {

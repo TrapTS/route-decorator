@@ -1,6 +1,6 @@
 {
   "name": "@trapts/route-decorator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Trap route decorator.",
   "scripts": {
     "start:example": "ts-node ./example/app.ts",
@@ -16,6 +16,7 @@
   "author": "AlfieriChou <alfierichou@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@trapts/route-decorator": "^1.0.6",
     "@trapts/router": "^1.0.0",
     "@types/koa": "^2.0.48",
     "@types/node": "^10.12.21",

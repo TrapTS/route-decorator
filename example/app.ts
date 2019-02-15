@@ -1,7 +1,7 @@
 import 'reflect-metadata'
 import * as Koa from 'koa'
 import { join } from 'path'
-import { loadControllers } from '../src'
+import { loadControllers } from '@trapts/route-decorator'
 
 const bootstrap = () => {
   const app = new Koa()
