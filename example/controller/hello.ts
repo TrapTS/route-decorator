@@ -1,5 +1,5 @@
-import { prefix, route, Method } from '../../index'
 import { Context } from 'koa'
+import { prefix, route, Method } from '../../src'
 
 @prefix('/hello')
 export class Hello {

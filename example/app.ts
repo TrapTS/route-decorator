@@ -1,7 +1,7 @@
 import 'reflect-metadata'
 import * as Koa from 'koa'
 import { join } from 'path'
-import { loadControllers } from '../index'
+import { loadControllers } from '../src'
 
 const bootstrap = () => {
   const app = new Koa()

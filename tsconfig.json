@@ -27,10 +27,10 @@
     "inlineSourceMap": true,
     "importHelpers": true,
     "moduleResolution": "node",
-    "outDir": "./build"
+    "outDir": "./dist"
   },
   "include": [
-    "index.ts",
+    "src/index.ts",
     "example"
   ],
   "exclude": [
